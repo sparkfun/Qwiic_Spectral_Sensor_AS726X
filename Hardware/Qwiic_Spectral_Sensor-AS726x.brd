@@ -744,49 +744,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="SparkX">
 <packages>
-<package name="LGA20">
-<wire x1="-2.35" y1="2.25" x2="2.35" y2="2.25" width="0.127" layer="51"/>
-<wire x1="2.35" y1="2.25" x2="2.35" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="2.35" y1="-2.25" x2="-2.35" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="-2.35" y1="-2.25" x2="-2.35" y2="2.25" width="0.127" layer="51"/>
-<circle x="0.01" y="0.3883" radius="0.375" width="0.03" layer="51"/>
-<circle x="0.01" y="0.3883" radius="0.55" width="0.03" layer="51"/>
-<smd name="1" x="-2.2" y="1.3" dx="0.3" dy="1.1" layer="1" rot="R90"/>
-<smd name="2" x="-2.2" y="0.65" dx="0.3" dy="1.1" layer="1" rot="R90"/>
-<smd name="3" x="-2.2" y="0" dx="0.3" dy="1.1" layer="1" rot="R90"/>
-<smd name="4" x="-2.2" y="-0.65" dx="0.3" dy="1.1" layer="1" rot="R90"/>
-<smd name="5" x="-2.2" y="-1.3" dx="0.3" dy="1.1" layer="1" rot="R90"/>
-<smd name="6" x="-1.3" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
-<smd name="7" x="-0.65" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
-<smd name="8" x="0" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
-<smd name="9" x="0.65" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
-<smd name="10" x="1.3" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
-<smd name="11" x="2.2" y="-1.3" dx="0.3" dy="1.1" layer="1" rot="R270"/>
-<smd name="12" x="2.2" y="-0.65" dx="0.3" dy="1.1" layer="1" rot="R270"/>
-<smd name="13" x="2.2" y="0" dx="0.3" dy="1.1" layer="1" rot="R270"/>
-<smd name="14" x="2.2" y="0.65" dx="0.3" dy="1.1" layer="1" rot="R270"/>
-<smd name="15" x="2.2" y="1.3" dx="0.3" dy="1.1" layer="1" rot="R270"/>
-<smd name="16" x="1.3" y="2.3" dx="0.3" dy="1.1" layer="1"/>
-<smd name="17" x="0.65" y="2.3" dx="0.3" dy="1.1" layer="1"/>
-<smd name="18" x="0" y="2.3" dx="0.3" dy="1.1" layer="1"/>
-<smd name="19" x="-0.65" y="2.3" dx="0.3" dy="1.1" layer="1"/>
-<smd name="20" x="-1.3" y="2.3" dx="0.3" dy="1.1" layer="1"/>
-<wire x1="-2.1" y1="2" x2="-1.7" y2="2" width="0.05" layer="51"/>
-<wire x1="-1.7" y1="2" x2="-2.1" y2="1.6" width="0.05" layer="51"/>
-<wire x1="-2.1" y1="1.6" x2="-2.1" y2="2" width="0.05" layer="51"/>
-<wire x1="-2.4" y1="1.7" x2="-2.4" y2="2.3" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="2.3" x2="-1.7" y2="2.3" width="0.127" layer="21"/>
-<wire x1="1.7" y1="2.3" x2="2.4" y2="2.3" width="0.127" layer="21"/>
-<wire x1="2.4" y1="1.7" x2="2.4" y2="2.3" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="-2.3" x2="-1.7" y2="-2.3" width="0.127" layer="21"/>
-<wire x1="1.7" y1="-2.3" x2="2.4" y2="-2.3" width="0.127" layer="21"/>
-<wire x1="2.4" y1="-2.3" x2="2.4" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="-2.3" x2="-2.4" y2="-1.7" width="0.127" layer="21"/>
-<circle x="-2.8" y="2" radius="0.1" width="0.2" layer="21"/>
-<text x="-1.651" y="3.429" size="0.762" layer="25">&gt;Name</text>
-<text x="-2.032" y="-4.064" size="0.762" layer="27">&gt;Value</text>
-<rectangle x1="-1.27" y1="-1.27" x2="1.27" y2="1.27" layer="41"/>
-</package>
 <package name="LED_5MM_NOSILK">
 <wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
 <wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
@@ -915,6 +872,66 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.5" y="0.9" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
 <text x="-1.5" y="-1.4" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
 <wire x1="2.019" y1="0.6825" x2="2.019" y2="-0.6825" width="0.2032" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LGA20">
+<wire x1="-2.35" y1="2.25" x2="2.35" y2="2.25" width="0.127" layer="51"/>
+<wire x1="2.35" y1="2.25" x2="2.35" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="2.35" y1="-2.25" x2="-2.35" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-2.35" y1="-2.25" x2="-2.35" y2="2.25" width="0.127" layer="51"/>
+<circle x="0.01" y="0.3883" radius="0.375" width="0.03" layer="51"/>
+<circle x="0.01" y="0.3883" radius="0.55" width="0.03" layer="51"/>
+<smd name="1" x="-2.2" y="1.3" dx="0.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="2" x="-2.2" y="0.65" dx="0.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="3" x="-2.2" y="0" dx="0.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="4" x="-2.2" y="-0.65" dx="0.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="5" x="-2.2" y="-1.3" dx="0.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="6" x="-1.3" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="7" x="-0.65" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="8" x="0" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="9" x="0.65" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="10" x="1.3" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="11" x="2.2" y="-1.3" dx="0.3" dy="1.1" layer="1" rot="R270"/>
+<smd name="12" x="2.2" y="-0.65" dx="0.3" dy="1.1" layer="1" rot="R270"/>
+<smd name="13" x="2.2" y="0" dx="0.3" dy="1.1" layer="1" rot="R270"/>
+<smd name="14" x="2.2" y="0.65" dx="0.3" dy="1.1" layer="1" rot="R270"/>
+<smd name="15" x="2.2" y="1.3" dx="0.3" dy="1.1" layer="1" rot="R270"/>
+<smd name="16" x="1.3" y="2.3" dx="0.3" dy="1.1" layer="1"/>
+<smd name="17" x="0.65" y="2.3" dx="0.3" dy="1.1" layer="1"/>
+<smd name="18" x="0" y="2.3" dx="0.3" dy="1.1" layer="1"/>
+<smd name="19" x="-0.65" y="2.3" dx="0.3" dy="1.1" layer="1"/>
+<smd name="20" x="-1.3" y="2.3" dx="0.3" dy="1.1" layer="1"/>
+<wire x1="-2.1" y1="2" x2="-1.7" y2="2" width="0.05" layer="51"/>
+<wire x1="-1.7" y1="2" x2="-2.1" y2="1.6" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="1.6" x2="-2.1" y2="2" width="0.05" layer="51"/>
+<wire x1="-2.4" y1="1.7" x2="-2.4" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="2.3" x2="-1.7" y2="2.3" width="0.127" layer="21"/>
+<wire x1="1.7" y1="2.3" x2="2.4" y2="2.3" width="0.127" layer="21"/>
+<wire x1="2.4" y1="1.7" x2="2.4" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="-2.3" x2="-1.7" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-2.3" x2="2.4" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-2.3" x2="2.4" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="-2.3" x2="-2.4" y2="-1.7" width="0.127" layer="21"/>
+<circle x="-2.8" y="2" radius="0.1" width="0.2" layer="21"/>
+<text x="-1.651" y="3.429" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-2.032" y="-4.064" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
+<rectangle x1="-1.27" y1="-1.27" x2="1.27" y2="1.27" layer="41"/>
 </package>
 </packages>
 </library>
@@ -1134,9 +1151,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="2.54" y="19.05" rot="MR0"/>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="1.27" y="1.27"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="24.13" y="20.32"/>
-<element name="U1" library="SparkX" package="LGA20" value="AS726X" x="12.7" y="12.7" smashed="yes" rot="R270">
+<element name="U1" library="SparkFun-Sensors" package="LGA20" value="IR" x="12.7" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.129" y="14.351" size="0.762" layer="25" rot="R270"/>
-<attribute name="VALUE" x="10.795" y="8.763" size="0.762" layer="27"/>
+<attribute name="VALUE" value="IR" x="10.795" y="8.763" size="0.762" layer="27"/>
+<attribute name="PROD_ID" value="IC-13731" x="12.7" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R3" library="SparkFun-Resistors" package="0603" value="10k" x="7.62" y="13.97" rot="R90">
 <attribute name="PROD_ID" value="RES-00824" x="7.62" y="13.97" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>

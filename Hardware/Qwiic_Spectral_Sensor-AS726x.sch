@@ -10065,49 +10065,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="SparkX">
 <packages>
-<package name="LGA20">
-<wire x1="-2.35" y1="2.25" x2="2.35" y2="2.25" width="0.127" layer="51"/>
-<wire x1="2.35" y1="2.25" x2="2.35" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="2.35" y1="-2.25" x2="-2.35" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="-2.35" y1="-2.25" x2="-2.35" y2="2.25" width="0.127" layer="51"/>
-<circle x="0.01" y="0.3883" radius="0.375" width="0.03" layer="51"/>
-<circle x="0.01" y="0.3883" radius="0.55" width="0.03" layer="51"/>
-<smd name="1" x="-2.2" y="1.3" dx="0.3" dy="1.1" layer="1" rot="R90"/>
-<smd name="2" x="-2.2" y="0.65" dx="0.3" dy="1.1" layer="1" rot="R90"/>
-<smd name="3" x="-2.2" y="0" dx="0.3" dy="1.1" layer="1" rot="R90"/>
-<smd name="4" x="-2.2" y="-0.65" dx="0.3" dy="1.1" layer="1" rot="R90"/>
-<smd name="5" x="-2.2" y="-1.3" dx="0.3" dy="1.1" layer="1" rot="R90"/>
-<smd name="6" x="-1.3" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
-<smd name="7" x="-0.65" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
-<smd name="8" x="0" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
-<smd name="9" x="0.65" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
-<smd name="10" x="1.3" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
-<smd name="11" x="2.2" y="-1.3" dx="0.3" dy="1.1" layer="1" rot="R270"/>
-<smd name="12" x="2.2" y="-0.65" dx="0.3" dy="1.1" layer="1" rot="R270"/>
-<smd name="13" x="2.2" y="0" dx="0.3" dy="1.1" layer="1" rot="R270"/>
-<smd name="14" x="2.2" y="0.65" dx="0.3" dy="1.1" layer="1" rot="R270"/>
-<smd name="15" x="2.2" y="1.3" dx="0.3" dy="1.1" layer="1" rot="R270"/>
-<smd name="16" x="1.3" y="2.3" dx="0.3" dy="1.1" layer="1"/>
-<smd name="17" x="0.65" y="2.3" dx="0.3" dy="1.1" layer="1"/>
-<smd name="18" x="0" y="2.3" dx="0.3" dy="1.1" layer="1"/>
-<smd name="19" x="-0.65" y="2.3" dx="0.3" dy="1.1" layer="1"/>
-<smd name="20" x="-1.3" y="2.3" dx="0.3" dy="1.1" layer="1"/>
-<wire x1="-2.1" y1="2" x2="-1.7" y2="2" width="0.05" layer="51"/>
-<wire x1="-1.7" y1="2" x2="-2.1" y2="1.6" width="0.05" layer="51"/>
-<wire x1="-2.1" y1="1.6" x2="-2.1" y2="2" width="0.05" layer="51"/>
-<wire x1="-2.4" y1="1.7" x2="-2.4" y2="2.3" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="2.3" x2="-1.7" y2="2.3" width="0.127" layer="21"/>
-<wire x1="1.7" y1="2.3" x2="2.4" y2="2.3" width="0.127" layer="21"/>
-<wire x1="2.4" y1="1.7" x2="2.4" y2="2.3" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="-2.3" x2="-1.7" y2="-2.3" width="0.127" layer="21"/>
-<wire x1="1.7" y1="-2.3" x2="2.4" y2="-2.3" width="0.127" layer="21"/>
-<wire x1="2.4" y1="-2.3" x2="2.4" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="-2.3" x2="-2.4" y2="-1.7" width="0.127" layer="21"/>
-<circle x="-2.8" y="2" radius="0.1" width="0.2" layer="21"/>
-<text x="-1.651" y="3.429" size="0.762" layer="25">&gt;Name</text>
-<text x="-2.032" y="-4.064" size="0.762" layer="27">&gt;Value</text>
-<rectangle x1="-1.27" y1="-1.27" x2="1.27" y2="1.27" layer="41"/>
-</package>
 <package name="LED_5MM">
 <description>&lt;B&gt;LED 5mm PTH&lt;/B&gt;&lt;p&gt;
 5 mm, round
@@ -10187,28 +10144,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="AS726X">
-<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="17.78" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
-<pin name="!RST" x="15.24" y="15.24" length="short" rot="R180"/>
-<pin name="SCK" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="MOSI" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="MISO" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="!CS_EE" x="15.24" y="-10.16" length="short" rot="R180"/>
-<pin name="!CS_SD" x="15.24" y="-7.62" length="short" rot="R180"/>
-<pin name="RX/SCL" x="15.24" y="10.16" length="short" rot="R180"/>
-<pin name="TX/SDA" x="15.24" y="7.62" length="short" rot="R180"/>
-<pin name="!INT" x="15.24" y="12.7" length="short" rot="R180"/>
-<pin name="VDD" x="-15.24" y="15.24" length="short"/>
-<pin name="LED_DRV" x="-15.24" y="2.54" length="short"/>
-<pin name="GND" x="-15.24" y="-12.7" length="short"/>
-<pin name="LED_IND" x="-15.24" y="7.62" length="short"/>
-<pin name="I2C_ENB" x="15.24" y="-12.7" length="short" rot="R180"/>
-<text x="-12.7" y="18.542" size="1.778" layer="95">&gt;Name</text>
-<text x="-12.7" y="-17.78" size="1.778" layer="96">&gt;Value</text>
-</symbol>
 <symbol name="LED">
 <description>&lt;h3&gt;LED&lt;/h3&gt;
 &lt;p&gt;&lt;/p&gt;</description>
@@ -10236,34 +10171,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AS726X" prefix="U">
-<gates>
-<gate name="U1" symbol="AS726X" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LGA20">
-<connects>
-<connect gate="U1" pin="!CS_EE" pad="6"/>
-<connect gate="U1" pin="!CS_SD" pad="7"/>
-<connect gate="U1" pin="!INT" pad="13"/>
-<connect gate="U1" pin="!RST" pad="2"/>
-<connect gate="U1" pin="GND" pad="16"/>
-<connect gate="U1" pin="I2C_ENB" pad="8"/>
-<connect gate="U1" pin="LED_DRV" pad="15"/>
-<connect gate="U1" pin="LED_IND" pad="18"/>
-<connect gate="U1" pin="MISO" pad="5"/>
-<connect gate="U1" pin="MOSI" pad="4"/>
-<connect gate="U1" pin="RX/SCL" pad="11"/>
-<connect gate="U1" pin="SCK" pad="3"/>
-<connect gate="U1" pin="TX/SDA" pad="12"/>
-<connect gate="U1" pin="VDD" pad="14 17"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LED" prefix="D">
 <gates>
 <gate name="D1" symbol="LED" x="0" y="0"/>
@@ -10627,6 +10534,147 @@ Used in manufacturing several products at SparkFun.
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LGA20">
+<wire x1="-2.35" y1="2.25" x2="2.35" y2="2.25" width="0.127" layer="51"/>
+<wire x1="2.35" y1="2.25" x2="2.35" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="2.35" y1="-2.25" x2="-2.35" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-2.35" y1="-2.25" x2="-2.35" y2="2.25" width="0.127" layer="51"/>
+<circle x="0.01" y="0.3883" radius="0.375" width="0.03" layer="51"/>
+<circle x="0.01" y="0.3883" radius="0.55" width="0.03" layer="51"/>
+<smd name="1" x="-2.2" y="1.3" dx="0.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="2" x="-2.2" y="0.65" dx="0.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="3" x="-2.2" y="0" dx="0.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="4" x="-2.2" y="-0.65" dx="0.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="5" x="-2.2" y="-1.3" dx="0.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="6" x="-1.3" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="7" x="-0.65" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="8" x="0" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="9" x="0.65" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="10" x="1.3" y="-2.2" dx="0.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="11" x="2.2" y="-1.3" dx="0.3" dy="1.1" layer="1" rot="R270"/>
+<smd name="12" x="2.2" y="-0.65" dx="0.3" dy="1.1" layer="1" rot="R270"/>
+<smd name="13" x="2.2" y="0" dx="0.3" dy="1.1" layer="1" rot="R270"/>
+<smd name="14" x="2.2" y="0.65" dx="0.3" dy="1.1" layer="1" rot="R270"/>
+<smd name="15" x="2.2" y="1.3" dx="0.3" dy="1.1" layer="1" rot="R270"/>
+<smd name="16" x="1.3" y="2.3" dx="0.3" dy="1.1" layer="1"/>
+<smd name="17" x="0.65" y="2.3" dx="0.3" dy="1.1" layer="1"/>
+<smd name="18" x="0" y="2.3" dx="0.3" dy="1.1" layer="1"/>
+<smd name="19" x="-0.65" y="2.3" dx="0.3" dy="1.1" layer="1"/>
+<smd name="20" x="-1.3" y="2.3" dx="0.3" dy="1.1" layer="1"/>
+<wire x1="-2.1" y1="2" x2="-1.7" y2="2" width="0.05" layer="51"/>
+<wire x1="-1.7" y1="2" x2="-2.1" y2="1.6" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="1.6" x2="-2.1" y2="2" width="0.05" layer="51"/>
+<wire x1="-2.4" y1="1.7" x2="-2.4" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="2.3" x2="-1.7" y2="2.3" width="0.127" layer="21"/>
+<wire x1="1.7" y1="2.3" x2="2.4" y2="2.3" width="0.127" layer="21"/>
+<wire x1="2.4" y1="1.7" x2="2.4" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="-2.3" x2="-1.7" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-2.3" x2="2.4" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-2.3" x2="2.4" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="-2.3" x2="-2.4" y2="-1.7" width="0.127" layer="21"/>
+<circle x="-2.8" y="2" radius="0.1" width="0.2" layer="21"/>
+<text x="-1.651" y="3.429" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-2.032" y="-4.064" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
+<rectangle x1="-1.27" y1="-1.27" x2="1.27" y2="1.27" layer="41"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AS726X">
+<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<pin name="!RST" x="15.24" y="15.24" length="short" rot="R180"/>
+<pin name="SCK" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="MOSI" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="MISO" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="!CS_EE" x="15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="!CS_SD" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="RX/SCL" x="15.24" y="10.16" length="short" rot="R180"/>
+<pin name="TX/SDA" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="!INT" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="VDD" x="-15.24" y="15.24" length="short"/>
+<pin name="LED_DRV" x="-15.24" y="2.54" length="short"/>
+<pin name="GND" x="-15.24" y="-12.7" length="short"/>
+<pin name="LED_IND" x="-15.24" y="7.62" length="short"/>
+<pin name="I2C_ENB" x="15.24" y="-12.7" length="short" rot="R180"/>
+<text x="-12.7" y="18.542" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="-17.78" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AS726X" prefix="U">
+<gates>
+<gate name="U1" symbol="AS726X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="IR" package="LGA20">
+<connects>
+<connect gate="U1" pin="!CS_EE" pad="6"/>
+<connect gate="U1" pin="!CS_SD" pad="7"/>
+<connect gate="U1" pin="!INT" pad="13"/>
+<connect gate="U1" pin="!RST" pad="2"/>
+<connect gate="U1" pin="GND" pad="16"/>
+<connect gate="U1" pin="I2C_ENB" pad="8"/>
+<connect gate="U1" pin="LED_DRV" pad="15"/>
+<connect gate="U1" pin="LED_IND" pad="18"/>
+<connect gate="U1" pin="MISO" pad="5"/>
+<connect gate="U1" pin="MOSI" pad="4"/>
+<connect gate="U1" pin="RX/SCL" pad="11"/>
+<connect gate="U1" pin="SCK" pad="3"/>
+<connect gate="U1" pin="TX/SDA" pad="12"/>
+<connect gate="U1" pin="VDD" pad="14 17"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13731" constant="no"/>
+<attribute name="VALUE" value="IR" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="VISIBLE" package="LGA20">
+<connects>
+<connect gate="U1" pin="!CS_EE" pad="6"/>
+<connect gate="U1" pin="!CS_SD" pad="7"/>
+<connect gate="U1" pin="!INT" pad="13"/>
+<connect gate="U1" pin="!RST" pad="2"/>
+<connect gate="U1" pin="GND" pad="16"/>
+<connect gate="U1" pin="I2C_ENB" pad="8"/>
+<connect gate="U1" pin="LED_DRV" pad="15"/>
+<connect gate="U1" pin="LED_IND" pad="18"/>
+<connect gate="U1" pin="MISO" pad="5"/>
+<connect gate="U1" pin="MOSI" pad="4"/>
+<connect gate="U1" pin="RX/SCL" pad="11"/>
+<connect gate="U1" pin="SCK" pad="3"/>
+<connect gate="U1" pin="TX/SDA" pad="12"/>
+<connect gate="U1" pin="VDD" pad="14 17"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC_13724" constant="no"/>
+<attribute name="VALUE" value="VISIBLE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10656,7 +10704,7 @@ Used in manufacturing several products at SparkFun.
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="U1" library="SparkX" deviceset="AS726X" device=""/>
+<part name="U1" library="SparkFun-Sensors" deviceset="AS726X" device="IR" value="IR"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
