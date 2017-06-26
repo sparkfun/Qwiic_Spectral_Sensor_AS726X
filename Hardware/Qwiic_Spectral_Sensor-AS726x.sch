@@ -10790,7 +10790,7 @@ Protocol</text>
 <text x="93.98" y="27.94" size="1.778" layer="91" rot="R90">Interrupt/
 Reset</text>
 <text x="148.59" y="7.112" size="2.54" layer="95">Revised by: Andy England</text>
-<text x="48.26" y="106.68" size="1.524" layer="91">U1 can be populated with AS7262 or AS7263</text>
+<text x="48.26" y="106.68" size="1.524" layer="97">U1 can be populated with AS7262 or AS7263</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
