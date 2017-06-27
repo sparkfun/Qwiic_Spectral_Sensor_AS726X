@@ -10742,6 +10742,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_NO-SILK" value=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH"/>
+<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -10751,7 +10753,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 Closed - Serial Operation</text>
 <text x="11.938" y="56.134" size="1.27" layer="97" rot="R180" align="center-right">Clear JP1 to remove
 I2C pullups from bus</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" align="center-left">X11</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" align="center-left">V0.1</text>
 <text x="170.688" y="12.446" size="2.54" layer="94" align="center-left">Nathan Seidle</text>
 <wire x1="0" y1="76.2" x2="129.54" y2="76.2" width="0.2032" layer="97" style="longdash"/>
 <wire x1="129.54" y1="76.2" x2="248.92" y2="76.2" width="0.2032" layer="97" style="longdash"/>
@@ -10789,8 +10791,9 @@ Protocol</text>
 <text x="93.98" y="43.18" size="1.778" layer="91" rot="R90">I2C interface</text>
 <text x="93.98" y="27.94" size="1.778" layer="91" rot="R90">Interrupt/
 Reset</text>
-<text x="148.59" y="7.112" size="2.54" layer="95">Revised by: Andy England</text>
-<text x="48.26" y="106.68" size="1.524" layer="97">U1 can be populated with AS7262 or AS7263</text>
+<text x="148.59" y="7.112" size="2.54" layer="94">Revised by: Andy England</text>
+<text x="63.5" y="106.68" size="1.524" layer="97">SEN-14347 -- AS7262 (VIS)
+SEN-14351 -- AS7263 (IR)</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -10813,11 +10816,11 @@ Reset</text>
 <attribute name="NAME" x="33.274" y="46.99" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="35.179" y="48.26" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
-<instance part="LOGO4" gate="G$1" x="73.66" y="10.16"/>
+<instance part="LOGO4" gate="G$1" x="119.38" y="10.16"/>
 <instance part="FD1" gate="G$1" x="238.76" y="25.4"/>
 <instance part="FD2" gate="G$1" x="238.76" y="27.94"/>
 <instance part="U1" gate="U1" x="76.2" y="129.54"/>
-<instance part="GND2" gate="1" x="58.42" y="111.76"/>
+<instance part="GND2" gate="1" x="58.42" y="114.3"/>
 <instance part="SUPPLY1" gate="G$1" x="58.42" y="147.32"/>
 <instance part="R3" gate="G$1" x="111.76" y="124.46" rot="R90"/>
 <instance part="R4" gate="G$1" x="96.52" y="152.4" rot="R90"/>
@@ -10875,6 +10878,8 @@ Reset</text>
 <instance part="JP4" gate="G$1" x="40.64" y="154.94" rot="R90"/>
 <instance part="LOGO1" gate="G$1" x="134.62" y="5.08"/>
 <instance part="LOGO2" gate="G$1" x="134.62" y="5.08"/>
+<instance part="FD3" gate="G$1" x="241.3" y="27.94"/>
+<instance part="FD4" gate="G$1" x="241.3" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -10899,7 +10904,6 @@ Reset</text>
 <segment>
 <pinref part="U1" gate="U1" pin="GND"/>
 <wire x1="60.96" y1="116.84" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="116.84" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
