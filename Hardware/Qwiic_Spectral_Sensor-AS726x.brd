@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -183,8 +183,8 @@ Sensor</text>
 <text x="19.177" y="22.098" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">GRN</text>
 <text x="6.35" y="22.606" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">GND</text>
 <text x="8.89" y="22.606" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">NC</text>
-<text x="10.414" y="22.606" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">3V3</text>
-<text x="14.986" y="22.606" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">RXI</text>
+<text x="10.3505" y="22.606" size="0.9144" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">3V3</text>
+<text x="15.113" y="22.606" size="0.9144" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">RXI</text>
 <text x="16.51" y="22.606" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">TXO</text>
 <text x="19.05" y="22.606" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">NC</text>
 <text x="12.573" y="17.78" size="1.27" layer="22" font="vector" ratio="15" rot="MR0" align="center">Serial</text>
@@ -214,7 +214,6 @@ Sensor</text>
 <dimension x1="25.4" y1="25.4" x2="22.86" y2="25.4" x3="24.13" y3="29.21" textsize="1.778" layer="47"/>
 <dimension x1="25.4" y1="25.4" x2="25.4" y2="22.86" x3="36.83" y3="24.13" textsize="1.778" layer="47"/>
 <text x="24.765" y="15.367" size="0.8128" layer="22" font="vector" rot="MR0">Opt. LED</text>
-<text x="19.812" y="15.494" size="0.8128" layer="21" font="vector">Opt. LED</text>
 <text x="22.86" y="18.288" size="1.778" layer="21">+</text>
 <text x="20.32" y="18.288" size="1.778" layer="21">-</text>
 </plain>
@@ -1724,6 +1723,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,1,fdb23ffdfbf939b6"/>
 <approved hash="19,1,db767a1b0424d31b"/>
 <approved hash="19,1,bacf27a859dc3b47"/>
+<approved hash="18,29,339d339afcbf12c1"/>
+<approved hash="18,29,e12f9a42c2ad79b3"/>
+<approved hash="18,29,920d9ab2c20d0aad"/>
+<approved hash="18,29,f9590f23c61df078"/>
+<approved hash="18,29,8acb0f3bc60d838e"/>
 </errors>
 </board>
 </drawing>
