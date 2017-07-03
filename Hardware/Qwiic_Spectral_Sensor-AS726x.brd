@@ -174,7 +174,7 @@ Sensor</text>
 <text x="5.334" y="11.43" size="0.889" layer="22" ratio="15" rot="MR90" align="bottom-center">JP2</text>
 <text x="16.51" y="-21.59" size="1.778" layer="51">Nathan Seidle</text>
 <text x="3.683" y="19.939" size="1.016" layer="21" font="vector" ratio="15" align="center">AS726x</text>
-<text x="2.54" y="6.985" size="0.889" layer="21" ratio="15" rot="R90" align="bottom-center">JP1</text>
+<text x="2.54" y="6.35" size="0.889" layer="21" ratio="15" rot="R90" align="bottom-center">JP1</text>
 <text x="8.89" y="2.794" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">!INT</text>
 <text x="6.35" y="2.794" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">!RST</text>
 <text x="8.89" y="2.794" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">!INT</text>
@@ -1261,14 +1261,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J1" pad="1"/>
 <contactref element="J2" pad="GND"/>
 <contactref element="J4" pad="1"/>
-<via x="15.621" y="8.382" extent="1-16" drill="0.381"/>
+<via x="15.24" y="8.5725" extent="1-16" drill="0.381"/>
 <via x="8.89" y="15.875" extent="1-16" drill="0.381"/>
 <via x="1.27" y="12.7" extent="1-16" drill="0.381"/>
 <via x="24.13" y="12.7" extent="1-16" drill="0.381"/>
 <contactref element="J5" pad="6"/>
-<via x="21.59" y="10.16" extent="1-16" drill="0.381"/>
+<via x="21.59" y="10.287" extent="1-16" drill="0.381"/>
 <via x="20.32" y="6.35" extent="1-16" drill="0.381"/>
-<via x="15.621" y="10.16" extent="1-16" drill="0.381"/>
+<via x="15.367" y="9.9695" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="RX/SCL">
 <contactref element="J8" pad="4"/>
