@@ -170,7 +170,7 @@
 <text x="19.05" y="2.794" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">GND</text>
 <text x="3.683" y="17.78" size="1.016" layer="21" font="vector" ratio="15" align="center">Spectral
 Sensor</text>
-<text x="3.429" y="0.762" size="1.016" layer="16" ratio="20" rot="MR0" align="bottom-center">V0.1</text>
+<text x="3.429" y="0.762" size="1.016" layer="16" ratio="20" rot="MR0" align="bottom-center">V01</text>
 <text x="5.334" y="11.43" size="0.889" layer="22" ratio="15" rot="MR90" align="bottom-center">JP2</text>
 <text x="16.51" y="-21.59" size="1.778" layer="51">Nathan Seidle</text>
 <text x="3.683" y="19.939" size="1.016" layer="21" font="vector" ratio="15" align="center">AS726x</text>
