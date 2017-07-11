@@ -1,9 +1,10 @@
 #include "AS726X.h"
-
 //Sets up the sensor for constant read
 //Returns the sensor version (AS7262 or AS7263)
 AS726X::AS726X()
 {
+	Wire.begin();
+	Serial.begin(115200);
 	sensorVersion = virtualReadRegister(AS726x_HW_VERSION);
 	if (sensorVersion != 0x3E && sensorVersion != 0x3F) //HW version for AS7262 and AS7263
 	{
@@ -24,7 +25,6 @@ AS726X::AS726X()
 	setGain(3); //Set gain to 64x
 
 	setMeasurementMode(3); //One-shot reading of VBGYOR
-
 	if (sensorVersion == 0)
 	{
 		Serial.println("Sensor failed to respond. Check wiring.");
@@ -125,6 +125,50 @@ void AS726X::disableInterrupt()
 	virtualWriteRegister(AS726x_CONTROL_SETUP, value); //Write
 }
 
+//Prints all measurements
+void AS726X::printMeasurements()
+{
+	float tempF = getTemperatureF();
+
+	if (sensorVersion == SENSORTYPE_AS7262)
+	{
+		//Visible readings
+		Serial.print(" Reading: V[");
+		Serial.print(getCalibratedViolet(), 2);
+		Serial.print("] B[");
+		Serial.print(getCalibratedBlue(), 2);
+		Serial.print("] G[");
+		Serial.print(getCalibratedGreen(), 2);
+		Serial.print("] Y[");
+		Serial.print(getCalibratedYellow(), 2);
+		Serial.print("] O[");
+		Serial.print(getCalibratedOrange(), 2);
+		Serial.print("] R[");
+		Serial.print(getCalibratedRed(), 2);
+	}
+	else if (sensorVersion == SENSORTYPE_AS7263)
+	{
+		//Near IR readings
+		Serial.print(" Reading: R[");
+		Serial.print(getCalibratedR(), 2);
+		Serial.print("] S[");
+		Serial.print(getCalibratedS(), 2);
+		Serial.print("] T[");
+		Serial.print(getCalibratedT(), 2);
+		Serial.print("] U[");
+		Serial.print(getCalibratedU(), 2);
+		Serial.print("] V[");
+		Serial.print(getCalibratedV(), 2);
+		Serial.print("] W[");
+		Serial.print(getCalibratedW(), 2);
+	}
+
+	Serial.print("] tempF[");
+	Serial.print(tempF, 1);
+	Serial.print("]");
+
+	Serial.println();
+}
 
 //Tells IC to take measurements and polls for data ready flag
 void AS726X::takeMeasurements()
@@ -246,7 +290,7 @@ void AS726X::enableIndicator()
 }
 
 //Disable the onboard indicator LED
-void AS7262X::disableIndicator()
+void AS726X::disableIndicator()
 {
 	//Read, mask/set, write
 	byte value = virtualReadRegister(AS726x_LED_CONTROL);
@@ -396,10 +440,13 @@ byte AS726X::readRegister(byte addr)
 	Wire.endTransmission();
 
 	Wire.requestFrom(AS726X_ADDR, 1);
-	if (Wire.available()) return (Wire.read());
-
-	Serial.println("I2C Error");
-	return (0xFF); //Error
+	if (Wire.available()) {
+		return (Wire.read());
+	}
+	else {
+		Serial.println("I2C Error");
+		return (0xFF); //Error
+	}
 }
 
 //Write a value to a spot in the AS726x
