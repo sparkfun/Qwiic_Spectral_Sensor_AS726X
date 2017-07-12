@@ -1,48 +1,17 @@
 #include "AS726X.h"
 //Sets up the sensor for constant read
 //Returns the sensor version (AS7262 or AS7263)
-AS726X::AS726X()
+
+AS726X::AS726X(TwoWire &wirePort, byte gain, byte measurementMode)
 {
-	Wire.begin();
+	_i2cPort = &wirePort;
+	_i2cPort->begin();
 	Serial.begin(115200);
-	sensorVersion = virtualReadRegister(AS726x_HW_VERSION);
-	if (sensorVersion != 0x3E && sensorVersion != 0x3F) //HW version for AS7262 and AS7263
+	_sensorVersion = virtualReadRegister(AS726x_HW_VERSION);
+	if (_sensorVersion != 0x3E && _sensorVersion != 0x3F) //HW version for AS7262 and AS7263
 	{
 		Serial.print("ID (should be 0x3E or 0x3F): 0x");
-		Serial.println(sensorVersion, HEX);
-		//return (false); //Device ID should be 0x3E
-	}
-
-	setBulbCurrent(0b00); //Set to 12.5mA (minimum)
-	disableBulb(); //Turn off to avoid heating the sensor
-
-	setIndicatorCurrent(0b11); //Set to 8mA (maximum)
-	disableIndicator(); //Turn off lights to save power
-
-	setIntegrationTime(50); //50 * 2.8ms = 140ms. 0 to 255 is valid.
-							//If you use Mode 2 or 3 (all the colors) then integration time is double. 140*2 = 280ms between readings.
-
-	setGain(3); //Set gain to 64x
-
-	setMeasurementMode(3); //One-shot reading of VBGYOR
-	if (sensorVersion == 0)
-	{
-		Serial.println("Sensor failed to respond. Check wiring.");
-		while (1); //Freeze!
-	}
-
-	if (sensorVersion == SENSORTYPE_AS7262) Serial.println("AS7262 online!");
-	if (sensorVersion == SENSORTYPE_AS7263) Serial.println("AS7263 online!");
-}
-
-AS726X::AS726X(byte gain, byte measurementMode)
-{
-	sensorVersion = virtualReadRegister(AS726x_HW_VERSION);
-	if (sensorVersion != 0x3E && sensorVersion != 0x3F) //HW version for AS7262 and AS7263
-	{
-		Serial.print("ID (should be 0x3E or 0x3F): 0x");
-		Serial.println(sensorVersion, HEX);
-		//return (false); //Device ID should be 0x3E
+		Serial.println(_sensorVersion, HEX);
 	}
 
 	setBulbCurrent(0b00); //Set to 12.5mA (minimum)
@@ -58,14 +27,14 @@ AS726X::AS726X(byte gain, byte measurementMode)
 
 	setMeasurementMode(measurementMode); //One-shot reading of VBGYOR
 
-	if (sensorVersion == 0)
+	if (_sensorVersion == 0)
 	{
 		Serial.println("Sensor failed to respond. Check wiring.");
 		while (1); //Freeze!
 	}
 
-	if (sensorVersion == SENSORTYPE_AS7262) Serial.println("AS7262 online!");
-	if (sensorVersion == SENSORTYPE_AS7263) Serial.println("AS7263 online!");
+	if (_sensorVersion == SENSORTYPE_AS7262) Serial.println("AS7262 online!");
+	if (_sensorVersion == SENSORTYPE_AS7263) Serial.println("AS7263 online!");
 }
 
 //Sets the measurement mode
@@ -130,7 +99,7 @@ void AS726X::printMeasurements()
 {
 	float tempF = getTemperatureF();
 
-	if (sensorVersion == SENSORTYPE_AS7262)
+	if (_sensorVersion == SENSORTYPE_AS7262)
 	{
 		//Visible readings
 		Serial.print(" Reading: V[");
@@ -146,7 +115,7 @@ void AS726X::printMeasurements()
 		Serial.print("] R[");
 		Serial.print(getCalibratedRed(), 2);
 	}
-	else if (sensorVersion == SENSORTYPE_AS7263)
+	else if (_sensorVersion == SENSORTYPE_AS7263)
 	{
 		//Near IR readings
 		Serial.print(" Reading: R[");
@@ -435,13 +404,13 @@ void AS726X::virtualWriteRegister(byte virtualAddr, byte dataToWrite)
 //Reads from a give location from the AS726x
 byte AS726X::readRegister(byte addr)
 {
-	Wire.beginTransmission(AS726X_ADDR);
-	Wire.write(addr);
-	Wire.endTransmission();
+	_i2cPort->beginTransmission(AS726X_ADDR);
+	_i2cPort->write(addr);
+	_i2cPort->endTransmission();
 
-	Wire.requestFrom(AS726X_ADDR, 1);
-	if (Wire.available()) {
-		return (Wire.read());
+	_i2cPort->requestFrom(AS726X_ADDR, 1);
+	if (_i2cPort->available()) {
+		return (_i2cPort->read());
 	}
 	else {
 		Serial.println("I2C Error");
@@ -452,8 +421,8 @@ byte AS726X::readRegister(byte addr)
 //Write a value to a spot in the AS726x
 void AS726X::writeRegister(byte addr, byte val)
 {
-	Wire.beginTransmission(AS726X_ADDR);
-	Wire.write(addr);
-	Wire.write(val);
-	Wire.endTransmission();
+	_i2cPort->beginTransmission(AS726X_ADDR);
+	_i2cPort->write(addr);
+	_i2cPort->write(val);
+	_i2cPort->endTransmission();
 }

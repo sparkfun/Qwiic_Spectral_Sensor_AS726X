@@ -10780,9 +10780,6 @@ I2C pullups from bus</text>
 <wire x1="129.54" y1="185.42" x2="129.54" y2="76.2" width="0.2032" layer="97" style="longdash"/>
 <text x="170.942" y="170.942" size="2.54" layer="94" rot="MR180" align="top-left">4mbit Flash Memory</text>
 <text x="120.142" y="69.342" size="2.54" layer="94" rot="MR180" align="top-left">Interfaces</text>
-<text x="19.812" y="23.622" size="1.27" layer="97" ratio="15">Note: for serial operation
-JP1 must be cleared
-to disconnect I2C pull-ups </text>
 <text x="149.352" y="97.282" size="1.778" layer="97">The AS726x must be held in reset while programming flash</text>
 <text x="43.18" y="160.02" size="1.27" layer="97" align="center-left">Open JP4 to use an external bulb</text>
 <text x="58.42" y="90.17" size="1.778" layer="97" align="center">Serial</text>

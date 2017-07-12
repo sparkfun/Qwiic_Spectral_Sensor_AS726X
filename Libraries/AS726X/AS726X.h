@@ -11,9 +11,7 @@
 #include "Wire.h"
 class AS726X {
 public:
-	AS726X();
-	AS726X(byte gain, byte measurementMode);
-	void begin();
+	AS726X(TwoWire &wirePort = Wire, byte gain = 3, byte measurementMode = 3);
 	void takeMeasurements();
 	void takeMeasurementsWithBulb();
 	void printMeasurements();
@@ -64,6 +62,7 @@ public:
 	float getCalibratedW();
 
 private:
+	TwoWire *_i2cPort;
 	int getChannel(byte channelRegister);
 	float getCalibratedValue(byte calAddress);
 	float convertBytesToFloat(uint32_t myLong);
@@ -125,8 +124,7 @@ private:
 
 #define POLLING_DELAY 5 //Amount of ms to wait between checking for virtual register changes
 
-	byte sensorVersion = 0;
+	byte _sensorVersion = 0;
 };
 
 #endif
-
