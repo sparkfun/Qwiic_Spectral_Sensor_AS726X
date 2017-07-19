@@ -216,6 +216,7 @@ Sensor</text>
 <dimension x1="0" y1="0" x2="20.955" y2="17.399" x3="10.4775" y3="34.29" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="0" y1="0" x2="23.495" y2="17.399" x3="11.7475" y3="26.67" textsize="1.778" layer="47" dtype="horizontal"/>
 <text x="-1.27" y="-12.7" size="1.778" layer="47">Measurements in mm</text>
+<text x="19.05" y="9.7155" size="0.889" layer="21" ratio="15" rot="R90" align="bottom-center">JP4</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
