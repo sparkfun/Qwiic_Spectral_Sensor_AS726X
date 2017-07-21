@@ -10773,7 +10773,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 Closed - Serial Operation</text>
 <text x="11.938" y="56.134" size="1.27" layer="97" rot="R180" align="center-right">Clear JP1 to remove
 I2C pullups from bus</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" align="center-left">V01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" align="center-left">V10</text>
 <text x="170.688" y="12.446" size="2.54" layer="94" align="center-left">Nathan Seidle</text>
 <wire x1="0" y1="76.2" x2="129.54" y2="76.2" width="0.2032" layer="97" style="longdash"/>
 <wire x1="129.54" y1="76.2" x2="248.92" y2="76.2" width="0.2032" layer="97" style="longdash"/>

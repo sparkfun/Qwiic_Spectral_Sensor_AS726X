@@ -40,6 +40,7 @@
   void setIntegrationTime(byte integrationValue);
   void enableInterrupt();
   void disableInterrupt();
+
   
   //Get the various color readings
   int getViolet();
@@ -100,6 +101,7 @@ void loop() {
   */
   while (1 == 1) {
     sensor.takeMeasurements();
+
     //sensor.takeMeasurementsWithBulb(); //Uncomment to illuminate the onboard Bulb for taking measurements
     sensor.printMeasurements();//Prints out all measurements
   }
