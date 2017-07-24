@@ -29,8 +29,7 @@ Product Versions
 
 Version History
 ---------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [V1.0.0](https://github.com/sparkfun/Sparkfun_AS726X_Arduino_Library/releases/tag/V1.0.0) - Initial Release
 
 License Information
 -------------------
