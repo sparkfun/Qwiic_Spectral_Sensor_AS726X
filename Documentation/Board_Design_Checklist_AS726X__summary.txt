@@ -1,0 +1,6 @@
+1) Do all VCC connections use the VCC symbol (oriented upward)? [YES]
+comment: 3.3V instead
+
+2) Are all LEDs labeled with their purpose? [NO]
+comment: no space
+

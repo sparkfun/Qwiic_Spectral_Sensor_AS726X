@@ -31,7 +31,7 @@ Product Versions
 
 Version History
 ---------------
-* [V1.0.0](https://github.com/sparkfun/Qwiic_Spectral_Sensor_AS726X/releases/tag/V1.0.0) - Initial Release
+* [V1.0.0](https://github.com/sparkfun/Qwiic_Spectral_Sensor_AS726X/tree/V1.0.0) - Initial Release
 
 License Information
 -------------------
