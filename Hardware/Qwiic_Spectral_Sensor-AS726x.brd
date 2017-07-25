@@ -1204,7 +1204,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-00868" x="7.62" y="19.05" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="1X04_1MM_RA" value="Qwiic Right Angle" x="5.08" y="12.7" rot="R270">
-<attribute name="PROD_ID" value="CONN-13729" x="5.08" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="CONN-13694" x="5.08" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="Qwiic Right Angle" x="5.08" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D1" library="SparkFun-LED" package="LED-0603" value="BLUE" x="18.669" y="12.7" smashed="yes" rot="R90">
@@ -1222,7 +1222,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="14.478" y="22.479" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" package="1X04_1MM_RA" value="Qwiic Right Angle" x="20.32" y="12.7" rot="R90">
-<attribute name="PROD_ID" value="CONN-13729" x="20.32" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="CONN-13694" x="20.32" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="Qwiic Right Angle" x="20.32" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D2" library="SparkFun-LED" package="SUPER_BRIGHT_SMD_LED_3014" value="White, 60mA" x="16.891" y="12.7" smashed="yes" rot="R90">
