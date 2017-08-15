@@ -205,17 +205,17 @@ Sensor</text>
 <text x="37.973" y="-22.352" size="1.778" layer="51" rot="R180">Andrew England</text>
 <wire x1="7.62" y1="7.62" x2="8.0645" y2="7.62" width="0.254" layer="22"/>
 <wire x1="17.78" y1="7.62" x2="17.145" y2="7.62" width="0.254" layer="22"/>
-<dimension x1="0" y1="0" x2="25.4" y2="0" x3="12.7" y3="-3.81" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="0" x2="0" y2="25.4" x3="-1.27" y3="12.7" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="25.4" x2="2.54" y2="25.4" x3="1.27" y3="38.1" textsize="1.778" layer="47"/>
+<dimension x1="0" y1="0" x2="25.4" y2="0" x3="12.7" y3="-3.81" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="25.4" x3="-1.27" y3="12.7" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="2.54" y2="25.4" x3="1.27" y3="38.1" textsize="1.778" layer="47" unit="inch"/>
 <text x="24.765" y="15.367" size="0.8128" layer="22" font="vector" rot="MR0">Opt. Bulb</text>
-<dimension x1="2.54" y1="22.86" x2="2.54" y2="0" x3="-5.08" y3="11.43" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="6.35" y1="1.27" x2="0" y2="1.27" x3="3.175" y3="-7.62" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="0" y1="25.4" x2="22.86" y2="25.4" x3="11.43" y3="30.48" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="20.955" y1="17.399" x2="0" y2="0" x3="29.21" y3="8.6995" textsize="1.778" layer="47" dtype="vertical"/>
-<dimension x1="0" y1="0" x2="20.955" y2="17.399" x3="10.4775" y3="34.29" textsize="1.778" layer="47" dtype="horizontal"/>
-<dimension x1="0" y1="0" x2="23.495" y2="17.399" x3="11.7475" y3="26.67" textsize="1.778" layer="47" dtype="horizontal"/>
-<text x="-1.27" y="-12.7" size="1.778" layer="47">Measurements in mm</text>
+<dimension x1="2.54" y1="22.86" x2="2.54" y2="0" x3="-5.08" y3="11.43" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="6.35" y1="1.27" x2="0" y2="1.27" x3="3.175" y3="-7.62" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="22.86" y2="25.4" x3="11.43" y3="30.48" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="20.955" y1="17.399" x2="0" y2="0" x3="29.21" y3="8.6995" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="0" y1="0" x2="20.955" y2="17.399" x3="10.4775" y3="34.29" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="0" x2="23.495" y2="17.399" x3="11.7475" y3="26.67" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<text x="-3.81" y="-12.7" size="1.778" layer="47">Measurements in inches</text>
 <text x="19.05" y="9.7155" size="0.889" layer="21" ratio="15" rot="R90" align="bottom-center">JP4</text>
 </plain>
 <libraries>
