@@ -1,7 +1,7 @@
 SparkFun AS726X
 ========================================
 
-![AS726X](URL for picture of part)
+![AS726X](https://cdn.sparkfun.com/assets/parts/1/2/3/2/6/14347-01.jpg)
 
 [*AS7262 (14347)*](https://www.sparkfun.com/products/14347)
 [*AS7263 (14351)*](https://www.sparkfun.com/products/14351)
@@ -11,13 +11,11 @@ This is an Arduino IDE library to control the AS726X Spectral Sensor, which can 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
 * **/Enclosure** - Enclosure files
 * **/Firmware** - Example code
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Libraries** - Libraries for use with the AS726X
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the AS726X
 
 Documentation
 --------------
