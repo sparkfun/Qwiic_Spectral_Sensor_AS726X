@@ -1,10 +1,16 @@
-SparkFun AS726X
+SparkFun Qwiic Spectral Sensor AS726X
 ========================================
 
-![AS726X](https://cdn.sparkfun.com/assets/parts/1/2/3/2/6/14347-01.jpg)
-
-[*AS7262 (14347)*](https://www.sparkfun.com/products/14347)
-[*AS7263 (14351)*](https://www.sparkfun.com/products/14351)
+<table class="table table-hover table-striped table-bordered">
+  <tr>
+   <td><a href="https://www.sparkfun.com/products/14347"><div align="center"><img src="https://cdn.sparkfun.com//assets/parts/1/2/3/2/6/14347-01.jpg" title="SparkFun Spectral Sensor Breakout - AS7262 Visible (Qwiic)"></div></a></center></td>
+   <td><a href="https://www.sparkfun.com/products/14351"><div align="center"><img src="https://cdn.sparkfun.com//assets/parts/1/2/3/3/8/14351-01.jpg" title="SparkFun Spectral Sensor Breakout - AS7263 NIR (Qwiic)"></div></a></td>
+  </tr>
+  <tr>
+    <td><div align="center"> [<a href="https://www.sparkfun.com/products/14347">SparkFun Spectral Sensor Breakout - AS7262 Visible (Qwiic) (SEN-14347)</a>]</div></td>
+    <td><div align="center"> [<a href="https://www.sparkfun.com/products/14351">SparkFun Spectral Sensor Breakout - AS7263 NIR (Qwiic) (SEN-14351)</a>]</div></td>
+  </tr>
+</table>
 
 This is an Arduino IDE library to control the AS726X Spectral Sensor, which can be configured via I<sup>2</sup>C or SPI.
 
@@ -24,8 +30,8 @@ Documentation
 
 Product Versions
 ----------------
-* [14347](https://www.sparkfun.com/products/14347)- AS7262 Visible Spectral Sensor
-* [14351](https://www.sparkfun.com/products/14351)- AS7263 Near Infrared Spectral Sensor
+* [SEN-14347](https://www.sparkfun.com/products/14347)- AS7262 Visible Spectral Sensor
+* [SEN-14351](https://www.sparkfun.com/products/14351)- AS7263 Near Infrared Spectral Sensor
 
 Version History
 ---------------
