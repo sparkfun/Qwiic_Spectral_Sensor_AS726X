@@ -7,8 +7,8 @@ SparkFun Qwiic Spectral Sensor AS726X
    <td><a href="https://www.sparkfun.com/products/14351"><div align="center"><img src="https://cdn.sparkfun.com//assets/parts/1/2/3/3/8/14351-01.jpg" title="SparkFun Spectral Sensor Breakout - AS7263 NIR (Qwiic)"></div></a></td>
   </tr>
   <tr>
-    <td><div align="center"> [<a href="https://www.sparkfun.com/products/14347">SparkFun Spectral Sensor Breakout - AS7262 Visible (Qwiic) (SEN-14347)</a>]</div></td>
-    <td><div align="center"> [<a href="https://www.sparkfun.com/products/14351">SparkFun Spectral Sensor Breakout - AS7263 NIR (Qwiic) (SEN-14351)</a>]</div></td>
+    <td><div align="center"> <a href="https://www.sparkfun.com/products/14347">SparkFun Spectral Sensor Breakout - AS7262 Visible (Qwiic) (SEN-14347)</a></div></td>
+    <td><div align="center"> <a href="https://www.sparkfun.com/products/14351">SparkFun Spectral Sensor Breakout - AS7263 NIR (Qwiic) (SEN-14351)</a></div></td>
   </tr>
 </table>
 
@@ -44,7 +44,7 @@ This product is _**open source**_!
 
 Please review the LICENSE.md file for license information. 
 
-If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
+If you have any questions or concerns on licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
 
 Distributed as-is; no warranty is given.
 
