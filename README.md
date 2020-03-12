@@ -12,7 +12,7 @@ SparkFun Qwiic Spectral Sensor AS726X
   </tr>
 </table>
 
-This is an Arduino IDE library to control the AS726X Spectral Sensor, which can be configured via I<sup>2</sup>C or SPI.
+This is the hardware repo for the AS726X Spectral Sensor. The AS7262 version detects wavelengths in the visible range while the AS7263 version detects wavelengths just below the visible range, in the Near Infrared (NIR) range.
 
 Repository Contents
 -------------------
